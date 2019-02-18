@@ -223,3 +223,171 @@ font-family: 'Nunito', sans-serif;
 }
 
 
+
+/*************************/
+/* 	 OUTLINE BUTON       */
+/************************/
+
+
+
+
+
+.outline-primary {
+	color: #9abeca ;
+	border: 2px solid #9abeca;
+}
+
+.outline-primary:hover {
+	background-color: #9abeca;
+	color: white;
+}
+
+.outline-success {
+	color: #48CFAD ;
+	border: 2px solid #48CFAD;
+}
+
+.outline-success:hover {
+	background-color: #48CFAD;
+	color: white;
+}
+
+.outline-danger {
+	color: #ED5565 ;
+	border: 2px solid #ED5565;
+}
+
+.outline-danger:hover {
+	background-color: #ED5565;
+	color: white;
+}
+
+.outline-information {
+	color: #4FC1E9 ;
+	border: 2px solid #4FC1E9;
+}
+
+.outline-information:hover {
+	background-color: #4FC1E9;
+	color: white;
+}
+
+.outline-warning {
+	color: #FFCE54 ;
+	border: 2px solid #FFCE54;
+}
+
+.outline-warning:hover {
+	background-color: #FFCE54;
+	color: white;
+}
+
+
+/*************************/
+/* 	       Icons        */
+/************************/
+
+.big {
+	font-size: 2em;
+    margin-left: 30px;
+}
+
+.icon-primary {
+	color: #569099;
+}
+
+.icon-primary:hover {
+	color: #9abeca;
+}
+
+.icon-success {
+	color: #37BC9B;
+}
+
+.icon-success:hover {
+	color: #48CFAD;
+}
+
+.icon-danger {
+	color: #da4453;
+}
+
+.icon-danger:hover {
+	color: #ED5565;
+}
+
+.icon-warning {
+	color: #F6BB42;
+}
+
+.icon-warning:hover {
+	color: #FFCE54;
+}
+
+
+
+/************************/
+/* 	       BUTON        */
+/***********************/
+
+
+.form-input-primary {
+	border-radius: 5px;
+	border: 2px solid #3BAFDA;
+	width: 300px;
+	height: 30px;
+}
+
+.form-input-primary:focus {
+	outline: none;
+	border: 2px solid #4FC1E9;
+}
+
+
+.form-input-sucess{
+	border-radius: 5px;
+	border: 2px solid #3BAFDA;
+	width: 300px;
+	height: 30px;
+}
+
+.form-input-sucess:focus {
+	outline: none;
+	border: 2px solid #4FC1E9;
+}
+
+.form-input-warning{
+	border-radius: 5px;
+	border: 2px solid #3BAFDA;
+	width: 300px;
+	height: 30px;
+}
+
+.form-input-warning:focus {
+	outline: none;
+	border: 2px solid #4FC1E9;
+}
+
+.form-input-danger{
+	border-radius: 5px;
+	border: 2px solid #3BAFDA;
+	width: 300px;
+	height: 30px;
+}
+
+.form-input-danger:focus {
+	outline: none;
+	border: 2px solid #4FC1E9;
+
+.form-select {
+	border-radius: 5px;
+	border: 2px solid #3BAFDA;
+	width: 300px;
+	height: 30px;
+}
+
+.form-select:focus {
+	outline: none;
+	border: 2px solid #4FC1E9;
+}
+
