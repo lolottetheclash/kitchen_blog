@@ -1,0 +1,72 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+/************************/
+/* 	    COULEURS        */
+/************************/
+
+.test {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: right;
+}
+
+.color-primary {
+	background-color: #9abeca;
+}
+
+
+.color-secondary {
+	background-color: #59445c;
+}
+
+.color-dark {
+	background-color: #5d6165;
+}
+
+.color-medium-light {
+	background-color: #9fa1a7;
+}
+
+.color-light {
+	background-color: #d0d1d8;
+}
+
+.text-primary {
+  color: #ffffff;	
+}
+
+.color-background {
+	width:100px;
+	height:100px;
+}
+
+.info {
+	width:100px;
+	height:30px;
+	background-color: lightgrey;
+	text-align: center;	
+}
+
+.box {
+	margin-right: 10px;
+	
+}
+
+
+
