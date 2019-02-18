@@ -19,7 +19,7 @@
 /* 	    COULEURS        */
 /************************/
 
-.test {
+.row {
   display: flex;                  /* establish flex container */
   flex-direction: row;            /* default value; can be omitted */
   flex-wrap: nowrap;              /* default value; can be omitted */
@@ -27,46 +27,199 @@
 }
 
 .color-primary {
-	background-color: #9abeca;
+	background-color: #569099;
 }
 
+.color-primary-light {
+	background-color: #9abeca;
+}
 
 .color-secondary {
 	background-color: #59445c;
 }
 
+.color-secondary-light {
+	background-color: #B8ADCF;
+}
+
 .color-dark {
-	background-color: #5d6165;
+	background-color: #434A54;
+}
+
+.color-dark-light {
+	background-color: #656D78;
+}
+
+.color-medium {
+	background-color: #AAB2BD;
 }
 
 .color-medium-light {
-	background-color: #9fa1a7;
+	background-color: #CCD1D9;
 }
 
 .color-light {
-	background-color: #d0d1d8;
+	background-color: #E6E9ED;
 }
 
-.text-primary {
-  color: #ffffff;	
+.color-light-light {
+	background-color: #F5F7FA;
+} 
+
+.success {
+	background-color: #37BC9B;
+}
+
+.success-light {
+	background-color: #48CFAD;
+}
+
+.danger {
+	background-color: #da4453;
+}
+
+.danger-light {
+	background-color: #ED5565;
+}
+
+.information {
+	background-color: #3BAFDA;
+}
+
+.information-light {
+	background-color: #4FC1E9;
+}
+
+.warning {
+	background-color: #F6BB42;
+}
+
+.warning-light {
+	background-color: #FFCE54;
 }
 
 .color-background {
-	width:100px;
+	width:150px;
+	height:100px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.color-mid {
+	width:75px;
 	height:100px;
 }
 
 .info {
-	width:100px;
+	width:150px;
 	height:30px;
 	background-color: lightgrey;
 	text-align: center;	
+	border-radius: 0px 0px 5px 5px;
+
 }
 
 .box {
 	margin-right: 10px;
-	
 }
 
+.space {
+	margin-top: 50px;
+}
+
+/************************/
+/* 	      FONT          */
+/************************/
+
+
+
+.title {
+font-family: 'Merriweather', serif;
+}
+
+.text {
+font-family: 'Nunito', sans-serif;
+}
+
+/************************/
+/* 	     TYPOGRAPHIE    */
+/************************/
+
+
+
+/************************/
+/* 	       BUTON        */
+/************************/
+
+.small{
+	width:80px;
+	height:40px;
+	text-align: center;	
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 10px;
+	border-radius: 5px;
+}
+
+.btn{
+	width:120px;
+	height:60px;
+	text-align: center;	
+	color: white;
+	font-weight: bold;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+.large{
+	width:150px;
+	height:80px;
+	text-align: center;	
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.btn-primary {
+	background-color: #569099;
+}
+
+.btn-primary:hover {
+	background-color: #9abeca;
+}
+
+.btn-success {
+	background-color: #37BC9B;
+}
+
+.btn-success:hover {
+	background-color: #48CFAD;
+}
+
+.btn-danger {
+	background-color: #da4453;
+}
+
+.btn-danger:hover {
+	background-color: #ED5565;
+}
+
+.btn-information {
+	background-color: #3BAFDA;
+}
+
+.btn-information:hover {
+	background-color: #4FC1E9;
+}
+
+.btn-warning {
+	background-color: #F6BB42;
+}
+
+.btn-warning:hover {
+	background-color: #FFCE54;
+}
 
 
